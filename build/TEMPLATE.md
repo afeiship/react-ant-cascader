@@ -14,37 +14,21 @@ npm install -S @jswork/react-ant-cascader
 ## usage
 1. import css
   ```scss
-  @import "~@jswork/boilerplate-react-component/dist/style.css";
+  @import "~@jswork/react-ant-cascader/dist/style.css";
 
   // or use sass
-  @import "~@jswork/boilerplate-react-component/dist/style.scss";
+  @import "~@jswork/react-ant-cascader/dist/style.scss";
 
   // customize your styles:
-  $boilerplate-react-component-options: ()
+  $react-ant-cascader-options: ()
   ```
 2. import js
   ```js
-  import React from 'react';
-  import ReactAntCascader from '@jswork/boilerplate-react-component';
-  import styled from 'styled-components';
-
-  const Container = styled.div`
-    width: 80%;
-    margin: 30px auto 0;
-  `;
-
-  export default (props: any) => {
-    return (
-      <Container>
-        <ReactAntCascader />
-      </Container>
-    );
-  };
-
+__GENERATE_DAPP__
   ```
 
 ## preview
-- https://afeiship.github.io/boilerplate-react-component/
+- https://afeiship.github.io/react-ant-cascader/
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/react-ant-cascader/blob/master/LICENSE.txt).
